@@ -319,6 +319,20 @@ button {
   opacity: 0.4;
 }
 
+/* Card image without dot pattern (for PNG illustrations) */
+.card__image--no-dots::before {
+  display: none;
+}
+
+.card__illustration-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+  position: relative;
+  z-index: 1;
+}
+
 /* ===== Card Illustrations ===== */
 .card__illustration {
   position: relative;
